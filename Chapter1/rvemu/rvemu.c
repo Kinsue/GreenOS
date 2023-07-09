@@ -9,7 +9,7 @@ typedef struct { u32 op:7, rd:5, f3:3, rs1:5, rs2:5, f7:7; } inst_t;
 typedef struct {
   u32 on, x[32];
 } CPUState;
-
+ 
 // Uncore:
 //   inst_fetch - read an instruction from stdin
 //   ebreak - hyper call: putchar/putd/exit
